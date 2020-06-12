@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    background-color: hsl(257, 40%, 49%);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: white;
+}
+
+.bg_1 {
+    position: absolute;
+    height: 7.61vh;
+    margin-left: 4.758vw;
+    margin-top: 6vh;
+    width: 23vh;
+}
+
+.bg_2 {
+    margin: 0;
+    position: absolute;
+    width: 92%;
+    top: 0;
+    height: 100%;
+}
+
+.bg_3 {
+    position: absolute;
+    top: 24vh;
+    width: 49.8vw;
+    height: 63.8vh;
+    margin-left: 5%;
+}
+
+.content {
+    width: 38%;
+    float: right;
+    margin-top: 27vh;
+    margin-right: 5vw;
+}
+
+.content h2 {
+    font-size: 35px;
+    margin-right: 5vw;
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.content p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 2vw;
+}
+
+.button {
+    padding: 12px 50px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px -5px;
+    border: 0;
+    color: rgba(0,0,0,0.6);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.icon-box {
+    bottom: 0;
+    position: absolute;
+}
+
+.fab {
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    background-color: hsl(257, 40%, 49%); 
+}
+
+.fab:hover {
+    cursor: pointer;
+}
+
+.fa-instagram {
+    right: 70px;
+    border: 1px solid;
+    padding: 7px 10px;
+    border-radius: 50%;
+    bottom: 40px;
+}
+
+.fa-twitter {
+    right: 120px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 50%;
+    bottom: 40px;
+}
+
+.fa-facebook-f {
+    right: 168px;
+    border: 1px solid;
+    padding: 7px 12px;
+    border-radius: 50%;
+    bottom: 40px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background: hsl(257, 40%, 49%) url(images/bg-mobile.svg) no-repeat left top;
+        background-attachment: scroll;
+        background-size: contain;
+    }
+    
+    footer {
+        top: 160vh;
+    }
+    
+    .bg_1 {
+        margin-top: 5vh;
+        margin-left: 8vh;
+        position: relative;
+        height: 40px;
+    }
+    
+    .bg_2 {
+        display: none;
+    }
+    
+    .bg_3 {
+        width: 80%;
+        height: 46%;
+        top: 24vh;
+        position: absolute;
+        left: 5%;
+    }
+    
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-top: 75vh;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .content h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0 50px;
+    }
+    
+    .content p {
+        text-align: center;
+        margin-top: 20px 0;
+        width: 70%;
+        font-size: 18px
+    }
+    
+    .button {
+        margin-top: 10px;
+        padding: 10px 80px;
+        left: 50%;
+    }
+    
+    .button:hover {
+        cursor: pointer;
+    }
+    
+    .fab {
+        top: 150vh;
+        position: absolute;
+    }
+    
+    .fa-facebook-f {
+        left: 36%;
+        border: none;
+    }
+    
+    .fa-twitter {
+        left: 46%;
+        border: none;
+    }
+    
+    .fa-instagram {
+        left: 56%;
+        border: none;
+    }
+}
